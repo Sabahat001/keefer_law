@@ -99,7 +99,6 @@ function App() {
               </div>
               <div className="learn" >
                 <img className="learn-img" src="images/pic1.gif" alt="" />
-               
              {/* <p className='line'></p> */}
               </div>
 
