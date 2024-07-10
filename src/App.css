@@ -157,7 +157,8 @@ border-right: 20px solid gray;  */
 }
 
 .hero-img-2 {
-  background-image: url("https://uc6ed94afa9a0b48d5fe168fb359.previews.dropboxusercontent.com/p/thumb/ACXMn3LdZHFw6CVhTDzT37fuxNXLi5IFYs_M7wPIQABI0PTevRG0q6U2bCBEEYma8brAC8xQmDmC52MT9brtPmrZm6Cu-i1VaEql6Q5f-MBggdFfdgmizQpA2uJyJgjL15XX4tqEvZI5eYaT7X8FSnipCWy96NMmof1Aw5ulryasA7uQzRxBtpmRpQmXL4JW4sPpgisYILf727J7KT443YmN2dfP0k5wjuTObFo2VuaTeAhNPSDVXxPTlqPShdE1ayAs-k__m6lIXKOzKEBHKf318nMXBkh3hFrckbvPr55Wo1pFY16hyQg-1Si1LJ7fMRh1X0VaGN77mUF8afe4WZnEs91B-TO2ONbBfqH_6uGNeWwRMHc1JPmYHlM-QI6j9zaHuC3VrAsuomglq1Yyi_3Zz-VyfAmb5tx0WlJGfYuUpg/p.jpeg");
+  /* background-image: url("https://uc6ed94afa9a0b48d5fe168fb359.previews.dropboxusercontent.com/p/thumb/ACXMn3LdZHFw6CVhTDzT37fuxNXLi5IFYs_M7wPIQABI0PTevRG0q6U2bCBEEYma8brAC8xQmDmC52MT9brtPmrZm6Cu-i1VaEql6Q5f-MBggdFfdgmizQpA2uJyJgjL15XX4tqEvZI5eYaT7X8FSnipCWy96NMmof1Aw5ulryasA7uQzRxBtpmRpQmXL4JW4sPpgisYILf727J7KT443YmN2dfP0k5wjuTObFo2VuaTeAhNPSDVXxPTlqPShdE1ayAs-k__m6lIXKOzKEBHKf318nMXBkh3hFrckbvPr55Wo1pFY16hyQg-1Si1LJ7fMRh1X0VaGN77mUF8afe4WZnEs91B-TO2ONbBfqH_6uGNeWwRMHc1JPmYHlM-QI6j9zaHuC3VrAsuomglq1Yyi_3Zz-VyfAmb5tx0WlJGfYuUpg/p.jpeg"); */
+  background-image: url(/public/images/form_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
