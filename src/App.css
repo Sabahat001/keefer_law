@@ -51,8 +51,8 @@
 }
 
 .all-sec {
-  border-left: 20px solid gray;
-  border-right: 20px solid gray;
+  border-left: 24px solid gray;
+  border-right: 24px solid gray;
 }
 
 /*main-nav*/
@@ -79,36 +79,49 @@ background-color: #434549;
 }
 
 .logo-img {
-  height: 130px;
-  width: 500px;
+  height: 170px;
+  width: 600px;
 }
 
 .number {
   margin-top: 10px;
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
 .num-heading {
   color: rgb(157, 18, 18);
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  font-weight: 700;
 }
 
 .hor-line {
   width: 100%;
-  color: #282c34;
+  border: 0;
+  height: 2px;
+  background: #333;
+  /* margin: 20px 0; */
 }
-
+.hori-line{
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background: #333;
+}
+.both{
+  display: flex;
+}
 .num-para {
-  font-size: 40px;
-  letter-spacing: 6px;
+  font-size: 50px;
+  font-weight:700;
 }
 
 .para {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   color: rgb(79, 75, 75);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
 }
 
 /*nav second*/
@@ -134,13 +147,17 @@ border-right: 20px solid gray;  */
   letter-spacing: 2px;
   padding-top: 10px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
-
-.home {
+.nav-para:hover {
+  background-color: gray; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+/* .home {
   background-color: gray;
   padding-left: 10px;
   padding-right: 10px;
-}
+} */
 
 
 /*hero section*/
@@ -163,6 +180,7 @@ border-right: 20px solid gray;  */
   background-repeat: no-repeat;
   height: 400px;
   width: 600px;
+  filter: brightness(90%); 
 }
 
 .banner {
@@ -187,22 +205,24 @@ border-right: 20px solid gray;  */
   padding: 5px;
   font-size: 30px;
   text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .que-para {
   display: inline;
   /* margin-top: 10px; */
   margin-left: 40px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   letter-spacing: 1px;
   color: black;
   font-weight: 700;
 }
 
 .que-para-2 {
-  margin-left: 230px;
-  font-size: 20px;
+  margin-left: 232px;
+  font-size: 30px;
   font-weight: 500;
   letter-spacing: 1px;
   color: black;
@@ -212,14 +232,17 @@ border-right: 20px solid gray;  */
 .strong {
   color: #0c4377;
   font-size: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 800;
 }
 
 .para-2 {
   font-size: 18px;
   font-weight: 600;
   margin-left: 50px;
+  color: rgb(65, 60, 60);
 }
+
 
 .information {
   display: flex;
@@ -231,8 +254,8 @@ form {
 
 label {
   margin-top: 20px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 650;
   text-transform: uppercase;
   margin-right: 10px;
   margin-left: 50px;
@@ -248,22 +271,24 @@ input {
 }
 
 .l1 {
-  margin-left: 8px;
+  margin-left: 5.2px;
 }
 
 .confidential {
   display: inline;
-  font-size: 25px;
-  font-weight: 700;
-  border: 2px dotted #981b1b;
-  outline: 5px solid #981b1b;
-  color: #981b1b;
-  padding: 5px;
+  /* font-size: 35px;
+  font-weight: 700; */
+  /* border: 2px dotted #981b1b;
+  outline: 5px solid #981b1b; */
+  /* color: #981b1b; */
+  /* padding: 5px; */
   transform: rotate(12deg);
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 24px;
+  margin-left: 30px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  height: 60px;
+  width: 210px;
 }
 
 
@@ -272,11 +297,13 @@ input {
 }
 
 .privacy-para {
-  margin-top: 30px;
+  margin-top: 16px;
   margin-left: 40px;
-  margin-right: 20px;
+  margin-right: 34px;
   opacity: 40%;
   font-weight: 500;
+font-size: 16px;
+word-spacing: 3px;
 }
 
 .privacy-heading {
@@ -286,16 +313,18 @@ input {
   color: white;
   border-radius: 2px;
   box-shadow: 0 24px 48px rgba(94, 38, 168, 0.075);
-  padding: 10px 10px 10px 10px;
+  padding: 6px 16px 6px 16px;
   font-size: 20px;
+  word-spacing: 3px;
+margin-top: 8px;
 }
 
-/* .privacy-img{
+.privacy-img{
   background-color: #981b1b;
-  height: 40px;
-  width: 30px;
-} */
-
+  /* height: 4px;
+  width: 3px; */
+  margin-left: 10px;
+}
 
 h3 ion-icon{
   /* display: inline-block; */
@@ -323,6 +352,7 @@ textarea {
   color: black;
   border: 1px solid grey;
   font-weight: 900;
+  /* stroke: black; */
 }
 
 /*blog-section*/
@@ -334,7 +364,7 @@ textarea {
   grid-template-columns: 1fr auto 1fr auto 1fr ;
 }
 .blog-charge{
-font-size: 22px;
+font-size: 24px;
 text-transform: uppercase;
 font-weight: 700;
 margin-left: 30px;
@@ -345,6 +375,7 @@ color: rgb(72, 70, 70);
   text-transform: uppercase;
   margin-top: 10px;
   margin-left: 30px;
+  font-weight: 700;
 }
 .dui{
   color: #981b1b;
@@ -373,26 +404,27 @@ width: 200px;
 .click{
   margin-left: 170px;
   display: inline-block;
-  background: linear-gradient(to top, rgb(139,0,0), #bc2323); 
+  background: linear-gradient(to top, rgb(131, 6, 6), #bf1717); 
   /* background-color: #981b1b; */
   color: white;
   border-radius: 2px;
   box-shadow: 0 24px 48px rgba(94, 38, 168, 0.075);
   padding: 5px 10px 5px 10px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
   box-shadow: -5px 0 20px -3px rgb(20, 17, 41), 5px 0 10px -5px lightgrey;
 }
 .board-img{
-  height: 110px;
-  width: 80px;
+  height: 120px;
+  width: 90px;
 }
 .law-blog{
   font-size: 22px;
   text-transform: uppercase;
   color: rgb(72, 70, 70);
   margin-left: 30px;
+  font-weight: 700;
 }
 .learn{
   display: flex;
@@ -424,7 +456,7 @@ hr{
 }
 .click-me{
   display: inline-block;
-  background: linear-gradient(to top, rgb(139,0,0), #bc2323); 
+  background: linear-gradient(to top, rgb(139,0,0), #a80d0d); 
   /* background-color: #981b1b; */
   color: white;
   border-radius: 2px;
@@ -448,8 +480,8 @@ hr{
 }
 .cer-blog{
   margin-left: 30px;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 700;
   color: rgb(72, 70, 70);
   text-transform: uppercase;
   margin-top: 10px;
@@ -469,12 +501,23 @@ hr{
   margin-left: 150px;
 }
 .end{
-  height: 1px;
+  height: 6px;
   width: 100%;
-  background-color: rgb(76, 67, 67);
+  /* background-color: rgb(76, 67, 67);
   position: relative;
-  box-shadow: 0 0 20px 10px lightgrey;
+  box-shadow: 0 0 20px 10px lightgrey; */
   margin-top: 30px;
+}
+.end1{
+  height: 6px;
+  width: 70%;
+}
+.mytext{
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  height: 60px;
+  width: 476px;
 }
 
 /*testimonal-section*/
@@ -494,7 +537,7 @@ grid-template-columns: auto 1fr auto;
   /* border-left: 20px solid gray; */
 }
 .area-head{
-  background-color: #5d6368  ;
+  background-color: #8d9695  ;
   border-left:  12px solid rgb(139,0,0); 
   color: white;
   text-transform: uppercase;
@@ -502,9 +545,10 @@ grid-template-columns: auto 1fr auto;
   font-size: 20px;
   padding-top: 7px;
   padding-bottom: 5px;
+  letter-spacing: 1px;
 }
 .area-para{
-  background-color: #5d6368 ;
+  background-color: #8d9695  ;
   /* background-color: 4283586137; */
   border-left: 12px solid rgb(139,0,0); 
   color: white;
@@ -513,17 +557,22 @@ grid-template-columns: auto 1fr auto;
   font-size: 16px;
   padding-bottom: 10px;
   box-shadow: 24px 24px 48px rgba(0,0,0, 0.075);
+  margin-top: 0;
 }
 .areahead{
   margin-bottom: 18px;
+  letter-spacing: 0.2px;
 }
 .para-icon{
-  color:#741515;
+  /* color:#741515; */
+  margin-left: 8px;
 }
 .learn-more{
   margin-left: 30px;
   text-transform: uppercase;
   margin-top: 30px;
+  color: rgb(72, 70, 70);
+  letter-spacing: 0.3px;
 }
 .title{
   margin-left: 60px;
@@ -532,9 +581,12 @@ grid-template-columns: auto 1fr auto;
   text-transform: uppercase;
   color: rgb(72, 70, 70);
   margin-bottom: 18px;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .title-para{
-  color: #868e96;
+  color: #545759;
  line-height: 24px;
 }
 .client{
@@ -551,8 +603,8 @@ hr{
   padding: 0;
   padding-left: 8px;
   padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   margin-left: 110px;
   /* box-shadow: -5px 0 20px -3px rgb(20, 17, 41), 5px 0 10px -5px lightgrey; */
 }
@@ -588,22 +640,31 @@ hr{
   margin-left: 400px;
 }
 .rating{
-  height: 170px;
-  width: 200px;
+  height: 150px;
+  width: 180px;
   margin-top: 10px;
 }
 .national{
-  height: 180px;
-  width: 180px;
+  height: 146px;
+  width: 140px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.nat{
+  margin-left: 20px;
+}
 .social-icon{
   display: flex;
-  gap: 25px;
+  gap: 12px;
+  /* margin-left: 400px; */
 margin-bottom: 30px;
-margin-top: 20px;
+margin-top: 10px;
 margin-left: 10px;
+height: 50px;
+width: 280px;
+}
+.icon-soc{
+  margin-left: 10px;
 }
 .footer-line{
   height: 1.8px;

@@ -11,8 +11,10 @@ function App() {
               <img className="logo-img" src="images/logo.png" alt="" />
             </div>
             <div className="number">
-              <h2 className="num-heading">Call Our Offices Now!</h2>
-              <hr className="hor-line" />
+              <h2 className="num-heading">Call Our Offices Now!
+                <hr className="hor-line" />
+              </h2>
+              {/* <hr className="hor-line" /> */}
               <h1 className="num-para">540.433.6906</h1>
               <p className="para">Get Your Questions Answers Fast</p>
             </div>
@@ -56,19 +58,23 @@ function App() {
                   <label for="phone">Phone:</label>
                   <input type="tel" id="phone" name="phone" required /> <br />
                 </form>
-                <p className="confidential">Confidential</p>
+                {/* <p className="confidential">Confidential</p> */}
+                <img className="confidential" src="images/confidential.png" alt="" />
               </div>
-              <textarea name="" id="" placeholder="Tell us about your case here..." ></textarea>
+              <textarea name="" id="textarea" placeholder="Tell us about your case here..." ></textarea>
+              {/* <label htmlFor=""></label>
+              <input className="mytext" type="text"  placeholder="Tell us about your case here..."/> */}
               <div className="privacy">
                 <p className="privacy-para">  <i>100% Privacy Gurnateed </i> </p>
-                <div className="case" >
-                  <h3 className="privacy-heading">Ask Us About Your Case
-                    <ion-icon className="icon" name="caret-forward-outline"></ion-icon>
-                  </h3>
 
-                  {/* <img  className="privacy-img" src="images/bullet_white.gif" alt=""/> */}
-                  {/* <p class="triangle-right"></p> */}
-                </div>
+                <h3 className="privacy-heading">Ask Us About Your Case
+                  {/* <ion-icon className="icon" name="caret-forward-outline"></ion-icon> */}
+                  <img className="privacy-img" src="images/bullet_white.gif" alt="" />
+                </h3>
+
+                {/* <img  className="privacy-img" src="images/bullet_white.gif" alt=""/> */}
+                {/* <p class="triangle-right"></p> */}
+
               </div>
             </div>
 
@@ -90,7 +96,7 @@ function App() {
               <p className="click">Click here  <ion-icon className="icon" name="caret-forward-outline"></ion-icon></p>
             </div>
             <div class="vertical-line"></div>
-            <div className="law-blog grid">
+            <div className="law-blog grid ">
               <div className="div1">
                 <h2 className="law-blog">Law <span className="dui">blog</span></h2>
                 <p className="about-para">Learn more about <br /> Virginia Traffic Laws.</p>
@@ -99,8 +105,8 @@ function App() {
               </div>
               <div className="learn" >
                 <img className="learn-img" src="images/pic1.gif" alt="" />
-             {/* <p className='line'></p> */}
               </div>
+              {/* <div class="hori-line"></div> */}
 
               <div className="div2">
                 <h2 className="law-blog">Case <span className="dui">Results</span></h2>
@@ -111,6 +117,8 @@ function App() {
               <div className="learn">
                 <img className="learn-img" src="images/order_icon.gif" alt="" />
               </div>
+
+
             </div>
             <div class="vertical-line"></div>
             <div className="certificate" >
@@ -125,38 +133,42 @@ function App() {
             </div>
           </div>
         </section>
-<p className='end'></p>
+        <img className="end" src="images/lf_bt_hr_shadow.png" alt="" />
+
 
         <section className="testimonals">
           <div className="testimonal-grid">
             <div className="practice_area">
-              <h1 className="blog-charge areahead" >Practice <span className="dui">Area</span></h1>
+              <h1 className="blog-charge areahead" >Practice <span className="dui">Areas</span></h1>
               <div className="areas">
-                <div className="area">
-                <h2 className='area-head'>DUI & DWI</h2>
-                <p className='area-para'>Learn More <ion-icon className="icon" name="caret-forward-outline"  style={{ color: '#741515',  fontSize: '20px'}}></ion-icon></p>
+              <div className="area">
+                  <h2 className='area-head'>DUI & DWI</h2>
+                  <p className='area-para'>Learn More <ion-icon className="icon" name="caret-forward-outline" style={{ color: '#741515', fontSize: '20px' }}></ion-icon></p>
                 </div>
                 <div className="area">
-                <h2 className='area-head'>reckless driving</h2>
-                <p className='area-para'>Learn More <ion-icon className="icon" name="caret-forward-outline"  style={{ color: '#741515',  fontSize: '20px'}}></ion-icon></p>
+                  <h2 className='area-head'>reckless driving</h2>
+                  <p className='area-para'>Learn More <ion-icon className="icon" name="caret-forward-outline" style={{ color: '#741515', fontSize: '20px' }}></ion-icon></p>
                 </div>
                 <div className="area">
-                <h2 className='area-head'>speeding tickets</h2>
-                <p className='area-para'>Learn More <ion-icon className="icon" name="caret-forward-outline"  style={{ color: '#741515',  fontSize: '20px'}}></ion-icon></p>
+                  <h2 className='area-head'>speeding tickets</h2>
+                  <p className='area-para'>Learn More <ion-icon className="icon" name="caret-forward-outline" style={{ color: '#741515', fontSize: '20px' }}></ion-icon></p>
                 </div>
                 <div className="area">
-                <h2 className='area-head'>traffic violations</h2>
-                <p className='area-para'>Learn More <ion-icon className="para-icon" name="caret-forward-outline" style={{ color: '#741515',  fontSize: '20px'}} ></ion-icon></p>
-                </div> 
+                  <h2 className='area-head'>traffic violations</h2>
+                  <p className='area-para'>Learn More 
+                    <ion-icon className="para-icon" name="caret-forward-outline" style={{ color: '#741515', fontSize: '20px' }} ></ion-icon>
+                    {/* <img className="para-icon" src="images/bullet_red.gif" alt="" /> */}
+                    </p>
+                </div>
                 <h1 className='learn-more'>learn <span className='dui'>More</span> About</h1>
               </div>
             </div>
             <div className="title">
-              <h1 className="title-head">Page title here</h1>
-              <p className='title-para' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta, brcorporis  <br />necessitatibus minima provident deserunt quod   earum, vel consequatur quis eaque <br />voluptatem tempora velit quo nobis accusamus vero iure hic aut? Qui temporibus,  aut <br />quaerat nostrum asperiores  accusamus saepe dolores laudantium beatae nesciunt fuga  <br /> vero molestiae, mollitia doloribus cumque nam quam consequatur incidunt! In maxime  <br />repudiandae. Obcaecati optio aliquid autem in repellat, dolorum officia illum doloribus <br /> cumque. Modi incidunt rem nesciunt, in cum aperiam autem, velit harum dolorum vero  <br /> fugiat itaque asperiores ad tempora animi voluptatibus enim quam quos recusandae expli<br /> sed maxime debitis veniam beatae et recusandae. Ab placeat consequuntur accusantium <br /> Nobis sint quod libero consequatur explicabo hic </p>
+              <h1 className="title-head"> Page title here</h1>
+              <p className='title-para' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta, brcorporis  <br />necessitatibus minima provident deserunt quod   earum, vel consequatur quis eaque <br />voluptatem tempora velit quo nobis accusamus vero iure hic aut? Qui temporibus,  aut <br />quaerat nostrum asperiores  accusamus saepe dolores laudantium beatae nesciunt fuga  <br /> vero molestiae, mollitia doloribus cumque nam quam consequatur incidunt! In maxime  <br />repudiandae. Obcaecati optio aliquid autem in repellat, dolorum officia illum doloribus <br /> cumque. Modi incidunt rem nesciunt, in cum aperiam autem, velit harum dolorum vero  <br /> fugiat itaque asperiores ad tempora animi voluptatibus enim quam quos recusandae expli<br /> sed maxime debitis veniam beatae </p>
             </div>
             <div className="client">
-            <div className="div1">
+              <div className="div1">
                 <h2 className="law-blog">CLIENT <br /> <span className="dui">TESTIMONALS</span></h2>
                 <p className="about-para">Read what other says<br /> about keefer Laws firm.</p>
                 <hr className='c-line' />
@@ -165,38 +177,41 @@ function App() {
               <div className="div1">
                 <h2 className="law-blog">DOWNLOAD <br /> <span className="dui">FREE</span> REPORTS</h2>
                 <p className="about-para">Discover the truth <br /> about Virginia Laws.</p>
-                <hr className='c-line'  />
+                <hr className='c-line' />
                 <p className="click-me btn">Click here  <ion-icon className="icon" name="caret-forward-outline"></ion-icon></p>
               </div>
               <div className="div1">
                 <h2 className="law-blog">CONTACT <span className="dui">OUR</span> <br />OFFICES</h2>
                 <p className="about-para">Get your questions <br /> answered right now.</p>
-                <hr  className='c-line'/>
-                <p className="click-me btn" >Click here  <ion-icon className="icon" name="caret-forward-outline"></ion-icon></p>
+                <hr className='c-line' />
+                <p className="click-me btn" >Click here  
+                  <ion-icon className="icon" name="caret-forward-outline"></ion-icon>
+                </p>
               </div>
             </div>
           </div>
         </section>
 
-<footer>
-  <div className='footer-grid'>
-    <div className="menu">
-      <h1>MENU <br />AREA <br />HERE</h1>
-    </div>
-    <div className="social">
-      <img className='rating' src="images/avo_rating_large.gif" alt="" />
-      <img  className="national" src="images/national_college_large.gif" alt="" />
-      <h1 className='blog-charge'>FOLLOW <span className='dui'>US</span> </h1>
-      <hr className='footer-line' />
-      <div className="social-icon">
-<img src="images/fb_icon.gif" alt="" />
-<img src="images/google_icon.gif" alt="" />
-<img src="images/linked_icon.gif" alt="" />
-<img className='twitter' src="images/twitter_icon.gif" alt="" />
-      </div>
-    </div>
-  </div>
-</footer>
+        <footer>
+          <div className='footer-grid'>
+            <div className="menu">
+              <h2>MENU <br />AREA <br />HERE</h2>
+            </div>
+            <div className="social">
+              <img className='rating' src="images/avo_rating_large.gif" alt="" />
+              <img className="national nat" src="images/national_college_large.gif" alt="" />
+              <h1 className='blog-charge'>FOLLOW <span className='dui'>US</span> </h1>
+              <img className="end1" src="images/lf_bt_hr_shadow.png" alt="" />
+              {/* <hr className='footer-line' /> */}
+              <div className="social-icon">
+                <img  className="icon-soc" src="images/fb_icon.gif" alt="" />
+                <img src="images/google_icon.gif" alt="" />
+                <img className='twitter' src="images/twitter_icon.gif" alt="" />
+                <img src="images/linked_icon.gif" alt="" />
+              </div>
+            </div>
+          </div>
+        </footer>
 
 
 
